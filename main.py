@@ -7,8 +7,6 @@ import os
 MY_EMAIL = "costipen57@gmail.com"
 PASSWORD = os.environ.get('GMAIL_PASS')
 
-
-# 2. Check if today matches a birthday in the birthdays.csv
 df = pandas.read_csv('birthdays.csv')
 now = dt.datetime.now()
 current_month = now.month
